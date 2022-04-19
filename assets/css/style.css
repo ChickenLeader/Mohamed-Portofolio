@@ -963,7 +963,11 @@ blockquote footer {
   width: 0.875rem;
   height: 0.875rem;
 }
-
+.scrollUp {
+  display: flex;
+  align-items: center;
+  margin-right: 30%;
+}
 .btn.btn-with-icon .btn-icon-right {
   margin-left: 0.5rem;
 }
@@ -1499,7 +1503,7 @@ textarea {
   display: block;
   min-height: 40rem;
   overflow: hidden;
-  background-image: url('../img/intro-img1@.jpg');
+  background-image: url("../img/intro-img1@.jpg");
 }
 
 .intro-item {
